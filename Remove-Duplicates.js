@@ -14,5 +14,6 @@ var removeDuplicates = function(nums) {
      }
     i++;
     nums.length=i;
+    return nums;
 };
-module.exports= removeDuplicates;
+module.exports=removeDuplicates; 
